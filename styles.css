@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('plants-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(76, 175, 80, 0.8); /* Make the header slightly transparent */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+.content-section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Plant Card Styles */
+.plant-card {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    background-color: black; /* Black background for the card */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.plant-card:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.plant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.plant-card h3 {
+    color: white; /* Title color */
+    margin-bottom: 10px;
+}
+
+.plant-card p {
+    background-color: white; /* White background for the text */
+    color: black; /* Black text color */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    position: fixed;
+    height: 2%;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+/* Welcome Text and Button Styles */
+#welcome-text h2, #welcome-text p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add text shadow for readability */
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
